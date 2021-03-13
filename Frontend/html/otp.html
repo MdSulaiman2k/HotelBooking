@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hotel Booking</title>
+	<meta charset="ISO-8859-1">
+	<link rel="icon" type="text/css" href="..\image\logo.png">
+	<link rel="stylesheet" type="text/css" 
+	href="..\css\design.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+<style type="text/css">
+	#fo{
+		border : solid;
+		border-color : silver;
+		 box-shadow: 16px 18px 22px -9px rgba(0,0,0,0.15);
+		width : 500px;
+		height: 300px ;
+		margin-top : 90px;
+		background-color: ghostwhite ;
+	}
+	body{
+		margin : 0px;
+	
+	}
+
+	input{
+		margin-top: 50px ;
+		width :30px;
+		height:  50px ;
+		margin-left: 20px ;
+		border-radius: 5px ; 
+	}
+	button{
+
+			margin-top: 50px ;
+		    margin-left: 51px ;
+		    margin-bottom: 10px ;
+		    width: 300px; 
+            padding-bottom: 5px;
+            padding-top : 5px;
+            border-top : 5px;
+            border-bottom: 5px ;
+            border-style: none ;
+            border-bottom-style: solid ;
+            border-color :  rgb(8, 150, 255);
+            border-bottom-color: #E0E0E0; 
+            height: 35px;
+            border-radius: 8px;
+            background-color:  rgb(8, 150, 255);
+            display: inline-block;
+            cursor: pointer;
+
+		}
+
+	
+	
+</style>
+</head>
+<body>
+	<div class="top-container" >
+      <p id="heading">Hotel Booking<span style="color: rgb(8, 150, 255)">.com</span></p>
+  </div>
+  <center>
+ <div id= "fo">
+<form action="home.html" method="POST">
+  <input type="text" id="one" maxlength="1" onkeyup="one()" style="width:30px" > 
+<input type="text" id="two" maxlength="1" onkeyup="two()" style="width:30px">
+<input type="text" id="three" maxlength="1" onkeyup="three()"style="width:30px"/>
+<input type="text" id="four" maxlength="1"style="width:30px"/><br><br>
+<button type="submit" >Submit</button>
+</form>
+</div>
+</center>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="../javascript/otp.js"></script>
+
+</body>
+</html>
+
+

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Hotel Booking</title>
+	<meta charset="ISO-8859-1">
+	<link rel="icon" type="text/css" href="..\image\logo.png">
+	<link rel="stylesheet" type="text/css" 
+	href="..\css\design.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+<body style="background-color: white">
+	<div class="top-container" >
+      <p id="heading">Hotel Booking<span style="color: rgb(8, 150, 255)">.com</span></p>
+      <button class="btn" id="bt"><a href="SignIn.html">Register</a> </button>
+       <button class="btn" id="bt1" ><a href="Login.html">Sign in</a></button>
+	</div>
+	<div class="middle-container">
+		<h1 class="second-head">Find the perfect Hotel on HotelBooking.com</h1>
+		<label style="position:relative;left :80%;top:-60px;" id="first">Rate</label><br/>
+  <select id="rate" name="rate" style="position:relative;left :80%;top:-60px">
+   <option value="1">Default</option>
+   <option value="0">500-2500</option>
+  <option value="2">2500-5000</option>
+  <option value="4">5000-above</option>
+</select><br/>
+		
+  
+	</div>
+	<h2  class="second-head" style="display: inline-block;width:300px;">Book your Room</h2>
+		<button class="btn1" id ="bt3" onclick="clicking()" >Rooms For tonight</button>
+		<button class="btn2" id="bt2"  onclick="clicking1()" >Rooms For this weekend</button>
+	<div class="item" >
+		<span class="box">
+			<img src="..\image\bedroom1.jpg" class="imgfont">
+			<div class="headtag"><a href="ReserveYourRoom.html" class="atag"><h4 class="headtag" id="headtag1">Chennai Plaza Hotel</h4><p class="des">Chennai</p></a><span class="rupee">&#x20B9 1198</span></div>
+            
+		</span>
+		<span class="box" >
+			<img src="..\image\bedroom2.jpg" class="imgfont">
+			<div class="headtag"><a href="ReserveYourRoom.html" class="atag"><h4 class="headtag" id="headtag2" >Chennai Plaza Hotel</h4><p class="des">Chennai</p></a><span class="rupee">&#x20B9 2500</span></div>
+		</span>
+	</div>
+	<div class="item" >
+		<span class="box">
+			<img src="..\image\bedroom1.jpg" class="imgfont">
+			<div class="headtag"><a href="ReserveYourRoom.html" class="atag"><h4 class="headtag" id="headtag3">Chennai Plaza Hotel</h4><p class="des">Chennai</p></a><span class="rupee">&#x20B9 1198</span></div>
+            
+		</span>
+		<span class="box" >
+			<img src="..\image\bedroom2.jpg" class="imgfont">
+			<div class="headtag"><a href="ReserveYourRoom.html" class="atag"><h4 class="headtag" id="headtag4">Chennai Plaza Hotel</h4><p class="des">Chennai</p></a><span class="rupee">&#x20B9 2500</span></div>
+		</span>
+		
+	</div>
+	<div class="item" >
+		<span class="box">
+			<img src="..\image\bedroom1.jpg" class="imgfont">
+			<div class="headtag"><a href="ReserveYourRoom.html" class="atag"><h4 class="headtag" id="headtag5">Chennai Plaza Hotel</h4><p class="des">Chennai</p></a><span class="rupee">&#x20B9 1198</span></div>
+            
+		</span>
+		<span class="box" >
+			<img src="..\image\bedroom2.jpg" class="imgfont">
+			<div class="headtag"><a href="ReserveYourRoom.html" class="atag"><h4 class="headtag" id="headtag6">Chennai Plaza Hotel</h4><p class="des">Chennai</p></a><span class="rupee">&#x20B9 2500</span></div>
+		</span>
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="..\javascript\scriptinjs.js"  ></script>
+</body>
+</html>

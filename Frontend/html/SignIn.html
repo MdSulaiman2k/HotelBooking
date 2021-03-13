@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hotel Booking</title>
+	<meta charset="ISO-8859-1">
+	<link rel="icon" type="text/css" href="..\image\logo.png">
+	<link rel="stylesheet" type="text/css" 
+	href="..\css\design.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+	<style type="text/css">
+		.top-container{
+	margin: 0px;
+	background-color: #0071c2 ;
+	position: sticky;
+	z-index: 1 ; 
+	width :98%;
+	height :100px;
+	padding-left: 30px;
+}
+		input{
+		   margin-top: 8px ;
+		   margin-left: 450px ;
+		   margin-bottom: 30px ;
+		   padding-top : 8px;
+		   padding-left: 10px;
+           border-style: none ;
+           border-bottom-style: solid ;
+           border-bottom-left-radius: 5px;
+           border-color :#E0E0E0;
+           outline : none;
+           width: 325px; 
+           padding-bottom: 12px;
+           display: block;
+           background-color: #ffffff ; 
+           font-family:  Georgia;
+           color :#333;
+
+		}
+		 
+		input:hover{
+			margin-top: 10px ;
+		   margin-bottom: 35px ;
+		   padding-top : 10px;
+           border-style: none ;
+           border-bottom-style: solid ;
+           border-color :rgb(8, 150, 255);
+           outline : none;
+           width: 335px; 
+           padding-bottom: 12px;
+           display: block;
+
+		}
+
+		button{
+
+			margin-top: 8px ;
+		    margin-left: 51px ;
+		    margin-bottom: 5px ;
+		    width: 350px; 
+            padding-bottom: 5px;
+            padding-top : 5px;
+            border-top : 5px;
+            border-bottom: 5px ;
+            border-style: none ;
+            border-bottom-style: solid ;
+            border-color :#E0E0E0;
+            border-bottom-color: rgb(8, 150, 255); 
+            height: 35px;
+            border-radius: 8px;
+            display: inline-block;
+            cursor: pointer;
+
+		}
+
+		label{
+
+			 margin-top : 10px;
+			 margin-bottom: 10px;
+		    margin-left: 0px ;
+		    color :#808080 ;
+		   font-family:  'Roboto', sans-serif;
+		    font-size: 17px;
+
+		    display: block;
+		    position: relative;
+		    left : -110px;
+		    color :#333;
+
+		}
+		#error{
+   	   position: absolute;
+   	   color : red ;
+   	   display: none;
+   	   left : 62%;
+   	   top : 43%;
+
+   }
+
+
+		#secondlabel{
+		      left : -85px;
+		}
+		#thirdlabel{
+		     left : -100px;
+		}
+		#fouthlabel{
+		     margin-right : 0px;	
+		     left :-68px;
+		}
+
+		form{
+			background-color: #ffffff ;
+			margin-top : 5px;
+			padding-top: 20px;
+			padding-right : 90px;
+			display : block;
+			border-width: 5px;
+
+		}
+		img{
+			margin-top :50px;
+			width:750px;
+			height:525px;
+		}
+
+		body {
+         
+        background-color: #ffffff ;
+         margin : 0;
+       
+}
+		
+	</style>
+</head>
+<body>
+	<div class="top-container" >
+      <p id="heading">Hotel Booking<span style="color: rgb(8, 150, 255)">.com</span></p>
+  </div>
+  <div class="" style="text-align:center;">
+  	<form action="home.html" method="post" autocomplete="off" >
+  		<label>Name <span style="color: red">*</span> </label>
+  		<input type="text" name="name" required placeholder="Enter your Name..." id="name" >
+  		<label id="secondlabel">Email address <span style="color: red">*</span></label>
+        <input type="email" name="email" required placeholder="enter Your mailid..." id="mail" >
+		<p id="error">Already Used email id!</p>
+        <label id="thirdlabel">Password <span style="color: red">*</span> </label>
+        <input type="password" required placeholder="enter your password..." name="password" id="pass" >
+        <label id="fouthlabel">Re-enter password <span style="color: red">*</span></label>
+        <input type="password" required placeholder="re-enter Your password..." name="passwordveri"  id ="passveri">
+        <button  style="font-family:  Georgia;" id="signbtn"   >Signin</button>
+  	</form>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="../javascript/register.js"></script>
+</body>
+</html>
